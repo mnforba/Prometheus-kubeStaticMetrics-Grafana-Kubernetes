@@ -1,0 +1,7 @@
+# kubectl create namespace monitoring
+# The monitoring namespace will provide us with more control over the cluster monitoring process
+ 
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: monitoring
